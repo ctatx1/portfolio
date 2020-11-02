@@ -1,0 +1,149 @@
+/* Universal Styles */
+
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 150px;
+    background-color: white;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+.options {
+    display: inline;
+}
+.developer {
+    display: inline;
+    font-family: "Salima", "Helvetica", sans-serif
+}
+
+#headshot {
+    width: 50px;
+    height: 50px;
+    padding-left: 0em;
+    border-radius: 50%;
+    display: inline;
+    justify-content: left;
+
+}
+header img{
+    height: 50px;
+    padding-left: 0px;
+    margin-left: 0px;
+} 
+
+
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+
+}
+
+/* Main Section */
+
+#mission {
+    height: 700px;
+    background-image: url("./IWD images/800px_COLOURBOX32148095.jpg");
+    padding-top: 70px;
+
+}
+
+#mission .content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+
+}
+
+/* Store Section */
+
+#store {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* Location Section */
+
+.flex-container.locations {
+    padding-top: 5px;
+}
+
+#locations .flex-container {
+    margin: auto;
+    width: 1100px;
+}
+
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    color: white;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Contact Section */
+
+#contact {
+    height: 50px;
+    padding: 0 auto;
+
+}
+
+/* Footer Section */
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+
+}
